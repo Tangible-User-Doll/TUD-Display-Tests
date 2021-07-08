@@ -18,3 +18,7 @@ Ein Beispiel-Code, in dem eine Nachricht auf dem OLED Bildschirm angezeigt wird,
 
 Zusätzlich sollte der Touch-Sensor mit Pin 7 verbunden werden.
 
+<h2>Ablauf des Programms: </h2>
+
+Wenn der Touch Sensor berührt wird, wird ein String (message) von rechts nach links über den Bildschirm gescrollt. Je nachdem, wie oft der Sensor innerhalb einer halben Sekunde berührt wird, wird ein anderer Absender oben rechts in der Ecke angezeigt. 
+
